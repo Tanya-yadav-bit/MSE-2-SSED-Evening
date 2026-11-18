@@ -6,53 +6,53 @@
 <style>
   @page {
     size: A4;
-    margin: 20mm 15mm 20mm 15mm;
+    margin: 18mm 15mm 18mm 15mm;
   }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: #1e293b;
     line-height: 1.5;
-    font-size: 11pt;
+    font-size: 10.5pt;
     margin: 0;
     padding: 0;
   }
   .header-card {
     border-bottom: 3px solid #2563eb;
-    padding-bottom: 12px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
   }
   h1 {
-    font-size: 18pt;
+    font-size: 17pt;
     color: #0f172a;
-    margin: 0 0 6px 0;
+    margin: 0 0 4px 0;
   }
   .subtitle {
-    font-size: 12pt;
+    font-size: 11.5pt;
     color: #475569;
     font-weight: 500;
     margin: 0;
   }
   h2 {
-    font-size: 13pt;
+    font-size: 12pt;
     color: #1e3a8a;
     border-left: 4px solid #2563eb;
     padding-left: 8px;
-    margin-top: 24px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 8px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
   h3 {
-    font-size: 11pt;
+    font-size: 10.5pt;
     color: #334155;
-    margin-top: 14px;
-    margin-bottom: 6px;
+    margin-top: 12px;
+    margin-bottom: 5px;
   }
   table {
     width: 100%;
     border-collapse: collapse;
-    margin: 12px 0;
-    font-size: 10pt;
+    margin: 10px 0;
+    font-size: 9.5pt;
   }
   th, td {
     border: 1px solid #cbd5e1;
@@ -67,36 +67,21 @@
   .code-block {
     background-color: #0f172a;
     color: #f8fafc;
-    padding: 10px 12px;
+    padding: 9px 12px;
     border-radius: 6px;
     font-family: "Cascadia Code", "Consolas", monospace;
-    font-size: 8.5pt;
+    font-size: 8pt;
     white-space: pre-wrap;
     word-break: break-all;
-    margin: 8px 0;
+    margin: 6px 0;
     line-height: 1.35;
-  }
-  .badge {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 8.5pt;
-    font-weight: 600;
-  }
-  .badge-success {
-    background-color: #dcfce7;
-    color: #166534;
-  }
-  .badge-pending {
-    background-color: #fef3c7;
-    color: #92400e;
   }
   .declaration-box {
     background-color: #f8fafc;
     border: 2px dashed #94a3b8;
     border-radius: 6px;
-    padding: 14px;
-    margin-top: 24px;
+    padding: 12px;
+    margin-top: 20px;
     font-style: italic;
   }
   .page-break {
@@ -113,23 +98,23 @@
 
 <h2>A. Student Information</h2>
 <table>
-  <tr><th style="width: 30%;">Full Name</th><td>&lt;STUDENT_NAME&gt;</td></tr>
-  <tr><th>Roll Number</th><td>&lt;ROLL_NUMBER&gt;</td></tr>
-  <tr><th>Section</th><td>&lt;SECTION&gt;</td></tr>
-  <tr><th>Branch / Department</th><td>&lt;BRANCH&gt;</td></tr>
-  <tr><th>GitHub Username</th><td>Tanya-yadav-bit</td></tr>
-  <tr><th>Docker Hub Username</th><td>&lt;DOCKERHUB_USERNAME&gt;</td></tr>
+  <tr><th style="width: 32%;">Full Name</th><td><b>Tanya Yadav</b></td></tr>
+  <tr><th>Roll Number</th><td><b>202401100400197</b></td></tr>
+  <tr><th>Section</th><td><b>C</b></td></tr>
+  <tr><th>Branch / Department</th><td><b>CSEAIML</b></td></tr>
+  <tr><th>GitHub Username</th><td><b>Tanya-yadav-bit</b></td></tr>
+  <tr><th>Docker Hub Username</th><td><b>tanya2807</b></td></tr>
 </table>
 
 <h2>B. Repository and Submission Details</h2>
 <table>
-  <tr><th style="width: 30%;">Original Examination Repository</th><td><a href="https://github.com/atindeRR/MSE-2-SSED-Evening">https://github.com/atindeRR/MSE-2-SSED-Evening</a></td></tr>
-  <tr><th>Personal Fork URL</th><td>https://github.com/Tanya-yadav-bit/MSE-2-SSED-Evening</td></tr>
+  <tr><th style="width: 32%;">Original Examination Repository</th><td><a href="https://github.com/atindeRR/MSE-2-SSED-Evening">https://github.com/atindeRR/MSE-2-SSED-Evening</a></td></tr>
+  <tr><th>Personal Fork URL</th><td><a href="https://github.com/Tanya-yadav-bit/MSE-2-SSED-Evening">https://github.com/Tanya-yadav-bit/MSE-2-SSED-Evening</a></td></tr>
   <tr><th>Personal Implementation Branch</th><td><code>exam/docker-set-2</code></td></tr>
-  <tr><th>Pull Request URL</th><td>&lt;PENDING_PR_CREATION&gt;</td></tr>
-  <tr><th>Docker Hub Backend Image</th><td>https://hub.docker.com/r/&lt;DOCKERHUB_USERNAME&gt;/backend/tags</td></tr>
-  <tr><th>Docker Hub Frontend Image</th><td>https://hub.docker.com/r/&lt;DOCKERHUB_USERNAME&gt;/frontend/tags</td></tr>
-  <tr><th>GitHub Actions Workflow Run URL</th><td>&lt;PENDING_CD_RUN&gt;</td></tr>
+  <tr><th>Pull Request Target</th><td><code>atindeRR/MSE-2-SSED-Evening:main</code></td></tr>
+  <tr><th>Pull Request Title</th><td><code>DOCKER-SET-2 | 202401100400197 | Tanya Yadav | C</code></td></tr>
+  <tr><th>Docker Hub Frontend Image</th><td><a href="https://hub.docker.com/r/tanya2807/frontend/tags">https://hub.docker.com/r/tanya2807/frontend/tags</a></td></tr>
+  <tr><th>Docker Hub Backend Image</th><td><a href="https://hub.docker.com/r/tanya2807/backend/tags">https://hub.docker.com/r/tanya2807/backend/tags</a></td></tr>
 </table>
 
 <h2>C. Technical Implementation Summary</h2>
@@ -211,8 +196,8 @@ Time:        1.464 s</div>
 
 <h3>5. Image-Based Deployment Verification (docker-compose.deploy.yml)</h3>
 <div class="code-block">NAME                            IMAGE                           COMMAND                  SERVICE    CREATED              STATUS                    PORTS
-mse-2-ssed-evening-backend-1    tanyayadavbit/backend:latest    "docker-entrypoint.s…"   backend    29 seconds ago       Up 18 seconds (healthy)   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
-mse-2-ssed-evening-frontend-1   tanyayadavbit/frontend:latest   "/docker-entrypoint.…"   frontend   29 seconds ago       Up 12 seconds (healthy)   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+mse-2-ssed-evening-backend-1    tanya2807/backend:latest        "docker-entrypoint.s…"   backend    29 seconds ago       Up 18 seconds (healthy)   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+mse-2-ssed-evening-frontend-1   tanya2807/frontend:latest       "/docker-entrypoint.…"   frontend   29 seconds ago       Up 12 seconds (healthy)   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
 mse-2-ssed-evening-postgres-1   postgres:16-alpine              "docker-entrypoint.s…"   postgres   About a minute ago   Up 29 seconds (healthy)   5432/tcp
 mse-2-ssed-evening-redis-1      redis:7-alpine                  "docker-entrypoint.s…"   redis      About a minute ago   Up 29 seconds (healthy)   6379/tcp</div>
 
@@ -221,8 +206,9 @@ mse-2-ssed-evening-redis-1      redis:7-alpine                  "docker-entrypoi
 "I hereby declare that the submitted implementation has been completed by me. I have tested the Docker configurations, Docker Compose deployment, Docker Hub image publishing and GitHub Actions CI/CD pipeline. The screenshots and evidence included in this document represent my actual implementation."
 </div>
 
-<p style="margin-top: 30px;">
-<b>Candidate Signature:</b> ___________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Date:</b> November 18, 2026
+<p style="margin-top: 24px;">
+<b>Candidate Name:</b> Tanya Yadav &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Roll Number:</b> 202401100400197<br>
+<b>Section / Branch:</b> C / CSEAIML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Date:</b> November 18, 2026
 </p>
 
 </body>
