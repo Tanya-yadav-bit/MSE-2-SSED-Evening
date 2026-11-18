@@ -1,0 +1,12 @@
+{
+  "studentName": "<STUDENT_NAME>",
+  "rollNumber": "<ROLL_NUMBER>",
+  "section": "<SECTION>",
+  "branch": "<BRANCH>",
+  "githubUsername": "Tanya-yadav-bit",
+  "dockerhubUsername": "<DOCKERHUB_USERNAME>",
+  "set": "Set 2 – Evening Shift",
+  "subject": "Software Engineering and DevOps (AI310B)",
+  "implementationBranch": "exam/docker-set-2",
+  "repository": "MSE-2-SSED-Evening"
+}
